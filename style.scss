@@ -85,7 +85,9 @@ html  {
     font-weight: 500;
     color: #ffffff;
   }
-  &__date {}
+  &__date {
+    width: 65px;
+  }
   &__date-text {
     font-size: 18px;
     line-height: 140%;

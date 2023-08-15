@@ -74,6 +74,9 @@ html {
   font-weight: 500;
   color: #ffffff;
 }
+.cart__date {
+  width: 65px;
+}
 .cart__date-text {
   font-size: 18px;
   line-height: 140%;
