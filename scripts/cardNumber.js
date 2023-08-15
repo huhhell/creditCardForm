@@ -8,10 +8,10 @@ numberInput.addEventListener('input', changeNumber)
 function changeNumber() {
     let currentValue = numberInput.value;
 
-    if ( oldValue < currentValue) {
+    if (oldValue < currentValue) {
         for (let i = 0; i < currentValue.length; i++) {
             if (i <= 4) numbersString[i].innerHTML = currentValue[i];
-            if (i >= 12) numbersString[i-8].innerHTML = currentValue[i];
+            if (i >= 12) numbersString[i - 8].innerHTML = currentValue[i];
 
             cartNumbers[i].style.transform = 'translateY(-50px)';
         }

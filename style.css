@@ -67,6 +67,7 @@ html {
   color: #b9b9b9;
 }
 .cart__owner-name {
+  height: 28px;
   font-size: 20px;
   line-height: 140%;
   text-transform: uppercase;
@@ -79,7 +80,9 @@ html {
   font-weight: 500;
   color: #b9b9b9;
 }
-.cart__date-mm-yy {
+.cart__date-date {
+  display: flex;
+  align-items: center;
   font-size: 20px;
   line-height: 140%;
   text-transform: uppercase;
